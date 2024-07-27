@@ -41,11 +41,11 @@ npm build
 Jest Test
 
 ```bash
-npm test:unit
+npm run test:unit
 ```
 
 Cypress Test
 
 ```bash
-npm test:e2e
+npm run test:e2e
 ```
