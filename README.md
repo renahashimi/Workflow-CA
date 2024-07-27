@@ -12,6 +12,9 @@ The task was to use this existing repository and improve its quality by testing 
 - Prettier
 - Husky
 
+[![Deploy static content to Pages](https://github.com/renahashimi/Workflow-CA/actions/workflows/pages.yml/badge.svg)](https://github.com/renahashimi/Workflow-CA/actions/workflows/pages.yml)
+
+
 ## Installation & Running
 
 1. Clone the repo
