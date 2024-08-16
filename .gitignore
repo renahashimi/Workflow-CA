@@ -2,3 +2,4 @@
 /dist
 /cypress/fixtures/screenshots
 .env
+.eslintcache
