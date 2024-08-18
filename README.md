@@ -58,7 +58,7 @@ Cypress Test
 npm run test-e2e
 ```
 
-Both Cypress & Jest
+Both Cypress & Jest Test
 
 ```bash
 npm run test
