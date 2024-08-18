@@ -20,6 +20,7 @@ The task was to use this existing repository and improve its quality by testing 
 
 [![Automated Unit Testing](https://github.com/renahashimi/Workflow-CA/actions/workflows/test.yml/badge.svg)](https://github.com/renahashimi/Workflow-CA/actions/workflows/test.yml)
 
+
 ## Installation & Running
 
 1. Clone the repo
