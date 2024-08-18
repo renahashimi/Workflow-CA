@@ -8,6 +8,11 @@ describe("A invalid and failed login to the Noroff Social App", () => {
       cy.get("input#loginPassword").type(loginInfo.password);
     });
     cy.get('button[type="submit"]').contains("Login").click();
+    cy.on("window:alert", (alertText) => {
+      expect(alertText).to.equal(
+        "Something went wrong. Please check your credentials",
+      );
+    });
     cy.get("#loginEmail").should(
       "be.visible",
       "have.attr",
