@@ -14,7 +14,6 @@ describe("A invalid and failed login to the Noroff Social App", () => {
       "title",
       "Invalid login ID",
     );
-
     // There should not be a visible token in localstorage
     cy.window().then((win) => {
       const token = win.localStorage.getItem("token");

@@ -22,10 +22,8 @@ describe("Logout from Noroff Social App", () => {
       expect(token).to.be.a("string");
       expect(token).not.to.be.empty;
     });
-
     cy.wait(3000);
     cy.get('button[data-auth="logout"]').first().click();
-
     // There should not be a visible token in localstorage when you logout
     cy.window().then((win) => {
       const token = win.localStorage.getItem("token");
