@@ -12,6 +12,8 @@ The task was to use this existing repository and improve its quality by testing 
 - Prettier
 - Husky
 
+## Status
+
 [![Deploy static content to Pages](https://github.com/renahashimi/Workflow-CA/actions/workflows/pages.yml/badge.svg)](https://github.com/renahashimi/Workflow-CA/actions/workflows/pages.yml)
 
 [![Automated E2E Testing](https://github.com/renahashimi/Workflow-CA/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/renahashimi/Workflow-CA/actions/workflows/e2e-test.yml)
@@ -40,7 +42,7 @@ npm run start
 ```
 
 ```bas
-npm build
+npm run build
 ```
 
 ## Testing
@@ -48,11 +50,17 @@ npm build
 Jest Test
 
 ```bash
-npm run test:unit
+npm run test-unit
 ```
 
 Cypress Test
 
 ```bash
-npm run test:e2e
+npm run test-e2e
+```
+
+Both Cypress & Jest Test
+
+```bash
+npm run test
 ```
